@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- --------------------By Axel Quintana------------------------------- -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIP CALCULATOR </title>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="favicon-16x16" href="./images/favicon-16x16.png">
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="sides">
+                <h2 class="grey-h2">Precio del plan</h2>
+                <div class="input-containers">
+                    <input class="input-valid" type="number" name="numer" id="input-cash" class="input-number" value="0" >
+                </div>
+                <h2 class="grey-h2">Porcentaje % de descuento</h2>
+                <div class="container-btn">
+                    <button class="butons" id="button-5">50%</button>
+                    <button class="butons" id="button-10">70%</button>
+                    <button class="butons" id="button-15">75%</button>
+                    <button class="butons" id="button-25">85%</button>
+                    <button class="butons" id="button-50">90%</button>
+                    <input type="number" name="random" id="input-random" placeholder="Elegir %">
+                </div>
+                <p id="p-error"></p>
+            </div>
+            <div class="sides-2">
+                <div class="total-container">
+                    <h3 id="h3-amount">$0.00</h3>
+                    <div><h4>Con desc.</h4></div>
+                </div>
+                <div class="total-container" id="container-total">
+                    <h3 id="h3-total">$0.00</h3>
+                    <div><h4>Ahorro</h4></div>
+                </div>
+                <button class="check" type="submit" id="button-check">CALCULAR</button>
+            </div>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
