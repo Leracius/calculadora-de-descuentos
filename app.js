@@ -19,8 +19,8 @@ const calculate= (percent)=>{
     let cash = inputCash.value
     let amount = cash*(percent/100)
     let result = cash-amount
-    tipAmount.innerHTML=`$${amount.toFixed(2)}`
-    total.innerHTML=`$${result.toFixed(2)}`
+    tipAmount.innerHTML=`$${result.toFixed(2)}`
+    total.innerHTML=`$${amount.toFixed(2)}`
     return result
     
 }
